@@ -18,3 +18,9 @@ source ~/.bashrc
 ##check
 
 rbenv -v
+
+##update gem
+sudo gem update --system
+
+#update Library in gem 
+sudo gem update
