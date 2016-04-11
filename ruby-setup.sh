@@ -12,11 +12,21 @@ git clone https://github.com/sstephenson/rbenv-gem-rehash.git ~/.rbenv/plugins/r
 echo 'export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"' >> ~/.bashrc
 echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
 echo 'eval "$(rbenv init -)"' >> ~/.bashrc
+
 source ~/.bashrc
 
-##check
+##ruby install
+rbenv install 2.2.4
+rbenv rehash
+rbenv global 2.2.4
 
-rbenv -v
+## Bundler install
+rbenv exec gem install bundler
+rbenv rehash
+
+# jekyll install
+rbenv exec gem install jekyll
+rbenv rehash
 
 ##update gem
 sudo gem update --system
