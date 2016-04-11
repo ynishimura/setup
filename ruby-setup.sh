@@ -1,6 +1,6 @@
 sudo yum -y install gcc zlib zlib-devel openssl openssl-devel
 sudo yum -y install epel-release
-sudo yum -y install gcc-c++ git glibc-headers libffi-devel libxml2 libxml2-devel libxslt libxslt-devel libyaml-devel make nodejs npm  readline readline-devel sqlite-devel
+sudo yum -y install gcc-c++ git glibc-headers libffi-devel libxml2 libxml2-devel libxslt libxslt-devel libyaml-devel make nodejs npm  readline readline-devel sqlite-devel ruby-devel
 
 ##rbenv
 
